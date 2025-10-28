@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]  # Servidor para FastAPI
+python-dotenv     # Para leer el archivo .env
+supabase          # Cliente oficial de Supabase para Python
+psycopg2-binary   # Conector para PostgreSQL (necesario para Supabase)
+pydantic[email]   # Validación de datos y manejo de emails
+
+# Librerías de ML que se usaran:
+scikit-learn
+tensorflow
+pandas
+numpy

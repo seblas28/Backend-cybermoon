@@ -1,0 +1,43 @@
+# Entorno virtual
+venv/
+env/
+*.venv/
+
+# Archivos de entorno
+.env*
+!.env.example # Permite incluir un archivo de ejemplo
+
+# Bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Artefactos de Pruebas
+.pytest_cache/
+.coverage*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Artefactos de Build
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Logs
+*.log
+
+# Modelos ML guardados
+*.joblib
+*.h5
+*.pth
+
